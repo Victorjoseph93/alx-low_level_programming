@@ -10,7 +10,7 @@ int main(void)
 
 	for (a = 0; a < 10; a++)
 	{
-		for (i = 0; i < 10; i++)
+		for (i = a+1; i < 10; i++)
 		{
 			putchar(a + '0');
 			putchar(i + '0');
