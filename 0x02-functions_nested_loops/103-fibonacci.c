@@ -1,33 +1,25 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * main - main block
+ * Description: Print the sum of even Fibonacci numbers up to a fib value
+ * not exceeding 4,000,000.
+ * Return: 0
  */
 int main(void)
 {
-	int count;
-	long int a = 1;
-	long int b = 2;
-	long int c = 0;
+	int i = 1, j = 2, total = 0;
+	int k;
 
-	printf("%lu, ", a);
-	printf("%lu, ", b);
-
-	for (count = 3; count <= 50; count++)
+	while (j < 4000000)
 	{
-		c = a + b;
-		a = b;
-		b = c;
-		if (count < 50)
-		{
-			printf("%lu, ", c);
-		}
-		else
-		{
-			printf("%lu\n", c);
-		}
+		if (j % 2 == 0)
+			total += j;
+
+		k = j;
+		j += i;
+		i = k;
 	}
+	printf("%d\n", total);
 	return (0);
 }
