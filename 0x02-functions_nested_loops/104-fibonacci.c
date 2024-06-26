@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
+ * main - prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line.
  *
  * Return: Always 0.
  */
