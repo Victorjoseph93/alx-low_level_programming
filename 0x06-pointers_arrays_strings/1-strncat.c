@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcat - concatenate
+ * _strncat - concatenate
  * @dest: string to be appended
  * @src:string to be appended to dest
  * @n:mail notification  no of strings to be appended
