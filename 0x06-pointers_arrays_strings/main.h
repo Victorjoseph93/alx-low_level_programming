@@ -11,5 +11,10 @@ void print_array(int *a, int n);
 void reverse_array(int *a, int n);
 char *string_toupper(char *);
 int main(void);
+char *cap_string(char *);
+char *leet(char *);
+char *rot13(char *);
+char *_strstr(char *haystack, char *needle);
+void print_number(int n);
 
 #endif /*MAIN_H*/
