@@ -9,5 +9,7 @@ int _strcmp(char *s1, char *s2);
 int _strcmp(char *s1, char *s2);
 void print_array(int *a, int n);
 void reverse_array(int *a, int n);
+char *string_toupper(char *);
+int main(void);
 
 #endif /*MAIN_H*/
