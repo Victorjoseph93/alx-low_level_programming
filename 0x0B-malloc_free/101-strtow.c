@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * wordcounter - this function will counts words and the letters in them
+ * wordcounter - counts words and the letters in them
  * @str: string to count
  * @pos: position of the word to count characters from
  * @firstchar: position of the first letter of the word
@@ -38,7 +38,7 @@ int wordcounter(char *str, int pos, char firstchar)
 	return (wordcount);
 }
 /**
- * strtow - this function convert a string into a 2dim array of words
+ * strtow - convert a string into a 2d array of words
  * @str: string to convert
  * Return: double pointer to 2d array
  */
