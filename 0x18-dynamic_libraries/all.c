@@ -10,6 +10,16 @@ int add(int a, int b)
 	return (a + b);
 }
 /**
+ * sub - function that subtract two numbers
+ * @a: first int
+ * @b: second int
+ * Return: subtraction result
+ */
+int sub(int a, int b)
+{
+        return (a - b);
+}
+/**
  * div - function that add to numbers
  * @a: first int
  * @b: second int
@@ -38,14 +48,4 @@ int mod(int a, int b)
 int mul(int a, int b)
 {
 	return (a * b);
-}
-/**
- * sub - function that subtract two numbers
- * @a: first int
- * @b: second int
- * Return: subtraction result
- */
-int sub(int a, int b)
-{
-	return (a - b);
 }
