@@ -46,6 +46,6 @@ int mul(int a, int b)
  * Return: subtraction result
  */
 int subt(int a, int b)
-{       
-        return (a - b);
-}       
+{
+	return (a - b);
+}
